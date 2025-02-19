@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/utils/screen.dart';
+import 'package:movie_app/screens/home_screen.dart';
+
+
 
 
 void main() async {
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Movie App',
       theme: ThemeData.dark(),
-      home: HomeScreen(),
+      home:  MovieService(),
       
 
     );
