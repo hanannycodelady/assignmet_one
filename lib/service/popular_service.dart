@@ -4,7 +4,7 @@ import 'package:movie_app/models/popular_movies.dart';
 
 
 class PopularMoviesService {
-  final String apiUrl = "https://api.themoviedb.org/3/movie/popular";
+  final String apiUrl = "https://api.themoviedb.org/3/movie/latest";
   final String apiKey = "fd1d995c201ec36d08d42e410b7b4bfc";
 
   Future<List<PopularMovie>> fetchPopularMovies() async {
